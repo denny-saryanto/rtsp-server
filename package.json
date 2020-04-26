@@ -1,0 +1,37 @@
+{
+  "name": "rtsp-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node control-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denny-saryanto/rtsp-stream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denny-saryanto/rtsp-stream/issues"
+  },
+  "homepage": "https://github.com/denny-saryanto/rtsp-stream#readme",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-onvif": "^0.1.7",
+    "node-rtsp-stream": "0.0.9",
+    "websocket": "^1.0.31"
+  },
+  "devDependencies": {
+    "bufferutil": "^4.0.1",
+    "express": "^4.17.1",
+    "forever": "^2.0.0",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0",
+    "utf-8-validate": "^5.0.2"
+  }
+}

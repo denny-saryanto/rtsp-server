@@ -1,0 +1,29 @@
+<?php
+    if(isset($_GET['status'])){
+    
+        $pesan = $_GET['status'];
+        
+        if($pesan == "berhasil"){
+            echo "Data berhasil di input.";
+        }
+    } else {
+        $_GET['status'] = 'Tidak Restart';
+    }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data</title>
+</head>
+<body>
+    <form action="response.php" method="GET">
+        CCTV Name : <input type="text" name="name">
+        URL CCTV : <input type="text" name="url">
+        Port : <input type="text" name="port">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
