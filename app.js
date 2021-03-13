@@ -38,15 +38,4 @@ con.connect(function(err) {
   });
 });
 
-
-
-
-
-
-//rtsp://root:vivo1234@125.163.247.128:554/live2.sdp
 //rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov
-
-
-
-  
-
